@@ -1,20 +1,21 @@
-
 html {
-	font-size:62.5%;
+  font-size: 62.5%;
 }
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
-ul, li {
-	list-style: none;
+ul,
+li {
+  list-style: none;
 }
 input {
-	border: none;
+  border: none;
 }
 body {
-  width: 144rem;
-}.desktop-26-aaB {
+  width: 100%;
+}
+.desktop-26-aaB {
   box-sizing: border-box;
   padding-right: 25rem;
   width: 100%;
@@ -50,8 +51,12 @@ body {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+  margin-bottom: 3rem;
 }
-.desktop-26-aaB .auto-group-fwhd-rGo .auto-group-p3sf-Zh1 .points-sent-to-your-account-gmd {
+.desktop-26-aaB
+  .auto-group-fwhd-rGo
+  .auto-group-p3sf-Zh1
+  .points-sent-to-your-account-gmd {
   margin-bottom: 7.15rem;
   width: 100%;
   max-width: 39.8rem;
@@ -65,7 +70,10 @@ body {
   font-family: League Spartan, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.desktop-26-aaB .auto-group-fwhd-rGo .auto-group-p3sf-Zh1 .your-points-have-been-successfully-transferred-please-check-your-account-b7u {
+.desktop-26-aaB
+  .auto-group-fwhd-rGo
+  .auto-group-p3sf-Zh1
+  .your-points-have-been-successfully-transferred-please-check-your-account-b7u {
   width: 100%;
   max-width: 61.8rem;
   display: flex;
@@ -79,7 +87,7 @@ body {
   flex-shrink: 0;
 }
 .desktop-26-aaB .auto-group-fwhd-rGo .frame-19-Gjq {
-  margin: 0rem 29.8rem 0rem 18.45rem;
+  margin: 0rem 10rem 0rem 18.45rem;
   width: calc(100% - 48.25rem);
   height: 9rem;
   display: flex;

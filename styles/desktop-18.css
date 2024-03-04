@@ -1,20 +1,22 @@
-
 html {
-	font-size:62.5%;
+  font-size: 62.5%;
 }
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
-ul, li {
-	list-style: none;
+ul,
+li {
+  list-style: none;
 }
 input {
-	border: none;
+  border: none;
 }
 body {
-  width: 144rem;
-}.desktop-18-6XZ {
+  width: 100%;
+  align-items: center;
+}
+.desktop-18-6XZ {
   box-sizing: border-box;
   padding-right: 24.1rem;
   width: 100%;

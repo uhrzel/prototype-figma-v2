@@ -1,20 +1,23 @@
-
 html {
-	font-size:62.5%;
+  font-size: 62.5%;
 }
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
-ul, li {
-	list-style: none;
+ul,
+li {
+  list-style: none;
 }
 input {
-	border: none;
+  border: none;
 }
 body {
-  width: 144rem;
-}.desktop-14-kbH {
+  width: 100%; /* Change the width to 100% */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+}
+.desktop-14-kbH {
   box-sizing: border-box;
   padding-right: 24.1rem;
   width: 100%;

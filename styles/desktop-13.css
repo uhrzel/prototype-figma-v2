@@ -1,20 +1,21 @@
-
 html {
-	font-size:62.5%;
+  font-size: 62.5%;
 }
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
-ul, li {
-	list-style: none;
+ul,
+li {
+  list-style: none;
 }
 input {
-	border: none;
+  border: none;
 }
 body {
-  width: 144rem;
-}.desktop-13-L9d {
+  width: 100%;
+}
+.desktop-13-L9d {
   width: 100%;
   height: 102.4rem;
   position: relative;
@@ -41,6 +42,38 @@ body {
   background-color: #ffffff;
   border-radius: 5rem;
 }
+.steps-list {
+  list-style-type: decimal;
+  margin-left: 2rem;
+}
+
+.steps-list li {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  font-family: 'League Spartan', 'Source Sans Pro';
+}
+
+.steps-list li::before {
+  content: attr(data-step); /* Add the step number as content */
+  margin-right: 0.5rem;
+  color: black; /* Color the step number black */
+}
+.steps-list li[data-step='Step 1:']::before {
+  color: #3badab; /* Color Step 1 */
+}
+.steps-list li[data-step='Step 2:']::before {
+  color: #3badab; /* Color Step 1 */
+}
+.steps-list li[data-step='Step 3:']::before {
+  color: #3badab; /* Color Step 1 */
+}
+.steps-list li[data-step='Step 4:']::before {
+  color: #3badab; /* Color Step 1 */
+}
+.steps-list li[data-step='Step 5:']::before {
+  color: #3badab; /* Color Step 1 */
+}
+
 .desktop-13-L9d .frame-14-1mZ .steps-ivs {
   margin-bottom: 0.95rem;
   width: 100%;
@@ -63,7 +96,8 @@ body {
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo {
   width: 57.2rem;
   height: 58.2rem;
   position: absolute;
@@ -76,135 +110,185 @@ body {
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-0 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-0 {
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-1 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-1 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-2 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-2 {
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-3 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-3 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-4 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-4 {
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-5 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-5 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-6 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-6 {
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-7 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-7 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-8 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-8 {
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-9 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-9 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-10 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-10 {
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-11 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-11 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-12 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-12 {
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-13 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-13 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-14 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-14 {
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-15 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-15 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-16 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-16 {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-17 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-17 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-18 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-18 {
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-19 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-19 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-20 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-20 {
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-21 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-21 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-22 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-22 {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-23 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-23 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-13-L9d .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-24 {
+.desktop-13-L9d
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-dispose-another-e-waste-button-for-additional-disposal-step-5-press-the-proceed-button-to-calculate-reward-ZAo-sub-24 {
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 0.92;

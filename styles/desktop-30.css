@@ -1,20 +1,21 @@
-
 html {
-	font-size:62.5%;
+  font-size: 62.5%;
 }
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
-ul, li {
-	list-style: none;
+ul,
+li {
+  list-style: none;
 }
 input {
-	border: none;
+  border: none;
 }
 body {
-  width: 144rem;
-}.desktop-30-M11 {
+  width: 100%;
+}
+.desktop-30-M11 {
   width: 100%;
   height: 102.4rem;
   position: relative;
@@ -69,7 +70,10 @@ body {
   height: 34.5rem;
   position: relative;
 }
-.desktop-30-M11 .frame-14-RmZ .auto-group-kbnp-mD9 .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym {
+.desktop-30-M11
+  .frame-14-RmZ
+  .auto-group-kbnp-mD9
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym {
   width: 36.9rem;
   height: 34.5rem;
   position: absolute;
@@ -82,46 +86,78 @@ body {
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-30-M11 .frame-14-RmZ .auto-group-kbnp-mD9 .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-0 {
+.desktop-30-M11
+  .frame-14-RmZ
+  .auto-group-kbnp-mD9
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-0 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-30-M11 .frame-14-RmZ .auto-group-kbnp-mD9 .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-1 {
+.desktop-30-M11
+  .frame-14-RmZ
+  .auto-group-kbnp-mD9
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-1 {
 }
-.desktop-30-M11 .frame-14-RmZ .auto-group-kbnp-mD9 .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-2 {
+.desktop-30-M11
+  .frame-14-RmZ
+  .auto-group-kbnp-mD9
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-2 {
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-30-M11 .frame-14-RmZ .auto-group-kbnp-mD9 .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-3 {
+.desktop-30-M11
+  .frame-14-RmZ
+  .auto-group-kbnp-mD9
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-3 {
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-30-M11 .frame-14-RmZ .auto-group-kbnp-mD9 .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-4 {
+.desktop-30-M11
+  .frame-14-RmZ
+  .auto-group-kbnp-mD9
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-4 {
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-30-M11 .frame-14-RmZ .auto-group-kbnp-mD9 .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-5 {
+.desktop-30-M11
+  .frame-14-RmZ
+  .auto-group-kbnp-mD9
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-5 {
 }
-.desktop-30-M11 .frame-14-RmZ .auto-group-kbnp-mD9 .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-6 {
+.desktop-30-M11
+  .frame-14-RmZ
+  .auto-group-kbnp-mD9
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-6 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-30-M11 .frame-14-RmZ .auto-group-kbnp-mD9 .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-7 {
+.desktop-30-M11
+  .frame-14-RmZ
+  .auto-group-kbnp-mD9
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym
+  .step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-Jym-sub-7 {
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 0.92;

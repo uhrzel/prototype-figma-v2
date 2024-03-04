@@ -59,7 +59,7 @@ body {
   width: 82rem;
   height: 75rem;
   position: relative;
-  left: 50%;
+  left: 40%;
   top: 50%;
   transform: translate(-50%, -50%); /* Center the container */
   background-color: #ffffff;

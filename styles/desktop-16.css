@@ -1,25 +1,156 @@
-
 html {
-	font-size:62.5%;
+  font-size: 62.5%;
 }
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
-ul, li {
-	list-style: none;
+ul,
+li {
+  list-style: none;
 }
 input {
-	border: none;
+  border: none;
 }
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  width: 144rem;
-}.desktop-16-7yZ {
+  width: 100%;
+}
+
+.desktop-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+}
+
+.frame {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.steps {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #3badab;
+  margin-bottom: 10px;
+}
+
+.sub-heading {
+  font-size: 1.6rem;
+  color: #3badab;
+  margin-bottom: 20px;
+}
+
+.steps-container ul {
+  list-style-type: none;
+}
+
+.steps-container ul li {
+  font-size: 1.6rem;
+  justify-content: left;
+  color: #000000;
+}
+
+.desktop-container {
   width: 100%;
   height: 102.4rem;
   position: relative;
   overflow: hidden;
   background-color: #3badab;
+}
+
+.logo {
+  width: 20.6rem;
+  height: 20.6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.frame {
+  box-sizing: border-box;
+  padding: 7.9rem 12.2rem 45.45rem 12.2rem;
+  width: 108rem;
+  height: 75rem;
+  position: absolute;
+  left: 18rem;
+  top: 13.7rem;
+  background-color: #ffffff;
+  border-radius: 5rem;
+}
+
+.steps {
+  margin-bottom: 0.95rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9.6rem;
+  font-weight: 700;
+  line-height: 0.92;
+  color: #3badab;
+  font-family: 'League Spartan', 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+.sub-heading {
+  max-width: 35.5rem;
+  display: flex;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 0.92;
+  color: #3badab;
+  font-family: 'League Spartan', 'Source Sans Pro';
+}
+
+.steps-container {
+  width: 60.4rem;
+  height: 60.4rem;
+  position: absolute;
+  left: 30.2rem;
+  top: 34.8rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 0.92;
+  color: #3badab;
+  font-family: 'League Spartan', 'Source Sans Pro';
+}
+
+.step {
+  font-size: 2.4rem;
+  color: #000000;
+}
+
+.desktop-16-7yZ {
+  width: 100%;
+  height: 102.4rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #3badab;
+  display: flex;
+  flex-direction: row;
 }
 .desktop-16-7yZ .logo-without-reverse-2-g15 {
   width: 20.6rem;
@@ -63,7 +194,8 @@ body {
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf {
   width: 60.4rem;
   height: 60.4rem;
   position: absolute;
@@ -76,135 +208,185 @@ body {
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-0 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-0 {
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-1 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-1 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-2 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-2 {
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-3 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-3 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-4 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-4 {
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-5 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-5 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-6 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-6 {
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-7 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-7 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-8 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-8 {
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-9 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-9 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-10 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-10 {
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-11 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-11 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-12 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-12 {
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-13 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-13 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-14 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-14 {
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-15 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-15 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-16 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-16 {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-17 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-17 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-18 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-18 {
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-19 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-19 {
   font-size: 3rem;
   font-weight: 400;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-20 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-20 {
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-21 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-21 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-22 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-22 {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 0.92;
   color: #3badab;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-23 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-23 {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.92;
   color: #000000;
   font-family: League Spartan, 'Source Sans Pro';
 }
-.desktop-16-7yZ .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-24 {
+.desktop-16-7yZ
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf
+  .step-1-prepare-your-e-waste-step-2-place-your-e-waste-on-the-platform-step-3-ensure-proper-placement-of-your-e-waste-step-4-press-the-add-another-e-waste-button-for-additional-disposal-step-5-press-the-send-points-to-my-account-to-transfer-your-points-to-your-account-jNf-sub-24 {
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 0.92;

@@ -1,0 +1,121 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+input {
+  border: none;
+}
+body {
+  width: 100%; /* Change the width to 100% */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+}
+.desktop-12-h9H {
+  box-sizing: border-box;
+  padding-right: 29.7rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  background-color: #3badab;
+}
+.desktop-12-h9H .logo-without-reverse-2-qWP {
+  margin-right: 10.4rem;
+  width: 20.6rem;
+  height: 20.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.desktop-12-h9H .auto-group-yo3u-NmD {
+  margin-top: 13.7rem;
+  width: 83.3rem;
+  height: 78.4rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.desktop-12-h9H
+  .auto-group-yo3u-NmD
+  .istockphoto-1390051517-612x612-removebg-preview-1-7io {
+  width: 50rem;
+  height: 50rem;
+  position: absolute;
+  left: 16rem;
+  top: 1rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.desktop-12-h9H .auto-group-yo3u-NmD .frame-14-2Ky {
+  box-sizing: border-box;
+  padding: 7.9rem 8.15rem 45.45rem 8.15rem;
+  width: 82rem;
+  height: 75rem;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* Center the container */
+  background-color: #ffffff;
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+}
+
+.desktop-12-h9H .auto-group-yo3u-NmD .frame-14-2Ky .dispose-whq {
+  margin-bottom: 0.95rem;
+  font-size: 9.6rem;
+  font-weight: 700;
+  color: #3badab;
+  font-family: 'League Spartan', 'Source Sans Pro';
+  white-space: nowrap;
+  text-align: center; /* Center the text */
+}
+
+.desktop-12-h9H .auto-group-yo3u-NmD .frame-14-2Ky .your-electronic-waste-TRH {
+  margin-left: 0.05rem;
+  max-width: 40.4rem;
+  display: flex;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 0.92;
+  color: #3badab;
+  font-family: League Spartan, 'Source Sans Pro';
+}
+.desktop-12-h9H .auto-group-yo3u-NmD .waste-1-x79 {
+  width: 31.1rem;
+  height: 31.1rem;
+  position: absolute;
+  left: 7.8rem;
+  top: 38.8rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.desktop-12-h9H .auto-group-yo3u-NmD .frame-18-UbH {
+  width: 23rem;
+  height: 8.5rem;
+  position: absolute;
+  left: 50rem;
+  top: 57.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 0.92;
+  color: #ffffff;
+  font-family: League Spartan, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.5rem #3badab;
+  box-sizing: border-box;
+  background-color: #3badab;
+  border-radius: 4rem;
+}

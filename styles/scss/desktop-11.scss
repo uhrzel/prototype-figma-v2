@@ -1,0 +1,63 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.desktop-11-EDm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #3badab;
+  box-sizing: border-box;
+  padding-bottom: 7.5rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  .logo-without-reverse-2-mjV {
+    margin-right: 123.4rem;
+    width: 20.6rem;
+    height: 20.6rem;
+    object-fit: cover;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .logo-without-reverse-1-uao {
+    vertical-align: top;
+    flex-shrink: 0;
+    margin-bottom: 13.3rem;
+    width: 50rem;
+    height: 50rem;
+    object-fit: cover;
+  }
+  .frame-17-qzF {
+    background-color: #ffffff;
+    flex-shrink: 0;
+    border: solid 0.5rem #3badab;
+    width: calc(100% - 44rem);
+    align-items: center;
+    line-height: 0.92;
+    white-space: nowrap;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0 22rem;
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+    color: #3badab;
+    font-family: League Spartan, 'Source Sans Pro';
+    box-sizing: border-box;
+    border-radius: 3rem;
+  }
+}
